@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li {
+    list-style: none;
+}
+.quadrados {
+    background-color: lightblue;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quadrados div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 4px 4px 4px black;
+}
+.circulos{
+    width: 100vw;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circulos div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+}
